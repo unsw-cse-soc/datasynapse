@@ -1,0 +1,54 @@
+This file explains how to enrich the Facebook files.
+
+The Api receives a directory as the input, and returns a set file which enriched by extracting named entities, pos tags, keyword, user profile and etc.
+The directory should contain a set of Facebook files in json format.
+The Api put the output files in the same directory.
+
+The path of Facebook json files can be set in config\config.ini file as following:
+       path = Users\\Alireza\\PycharmProjects\\FB\\JsonSample\\
+The text in front of 'path' keyword is the path of directory that contains Facebook files.
+
+The output:
+ The Api enriches every Facebook file and stores the enriched files into the input directory.
+ To distinguish the output file with the original Facebook files the Apis adds enriched keyword to the output files.
+ Example:
+ If the name of input file being 'Test.json' the enriched version of this file will be 'enrichedTest.json'.
+
+Customizing the API:
+ Currently the API extracts Named-Entites, POS-Tags, Stem, Keyword, and profile Info from the input files.
+ The API sends a rest request to a server that carry out the process of enrichment. The name of server is
+ "http://d2dcrc.cse.unsw.edu.au:9091/ExtractionAPI-0.0.1-SNAPSHOT"
+
+Following commands shows how to send a rest request to the server for extracting named entities, pos-tags and keyword.
+
+1- named entities:
+ Example: http://d2dcrc.cse.unsw.edu.au:9091/ExtractionAPI-0.0.1-SNAPSHOT/rest/entity/?ent='Sydney is a city in Australia'
+ The first part of above example (from beginning until ent) is the server path
+ 'ent' is an static parameter that receives the input parameter
+ The last part (after 'ent=') is the text for extracting named entities. 
+
+2- Pos Tag:
+ Example: http://d2dcrc.cse.unsw.edu.au:9091/ExtractionAPI-0.0.1-SNAPSHOT/rest/postag/?tag='This is a test'
+ The structure of url for sending rest request for extracting POS tag is similar to named entities.
+ The URL is made up of three parts:
+ The first part is the server path http://d2dcrc.cse.unsw.edu.au:9091/ExtractionAPI-0.0.1-SNAPSHOT/rest/postag/ for extracing pos tags.
+ The second part is the 'tag' keyword, which is a static parameter and receives the input data.
+ The third part is the text for extracting pos tag.
+
+3- Keyword:
+ Example: http://d2dcrc.cse.unsw.edu.au:9091/ExtractionAPI-0.0.1-SNAPSHOT/rest/keyword/?sentence='This is a test'
+ The process of sending rest request for extracting keyword is similar to previous requests.
+ The first part is the server path http://d2dcrc.cse.unsw.edu.au:9091/ExtractionAPI-0.0.1-SNAPSHOT/rest/keyword/ for extracing keyword.
+ The second part is the 'sentence', which is a static parameter that receives the input data.
+ The third part is the text for extracting keywords.
+
+
+For further information on APIs please refer to following resources:
+
+1- Beheshti SM, Tabebordbar A, Benatallah B, Nouri R. Data Curation APIs. arXiv preprint arXiv:1612.03277. 2016 Dec 10.
+2- Beheshti SM, Tabebordbar A, Benatallah B, Nouri R. On Automating Basic Data Curation Tasks. 
+InProceedings of the 26th International Conference on World Wide Web Companion 2017 Apr 3 (pp. 165-169). 
+International World Wide Web Conferences Steering Committee.
+3- Github link: https://github.com/unsw-cse-soc/Data-curation-API
+
+Alireza.

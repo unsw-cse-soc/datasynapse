@@ -1,0 +1,80 @@
+{
+   "kind": "plus#activity",
+   "etag": "\"ucaTEV-ZanNH5M3SCxYRM0QRw2Y/nbB1NNqJ2IwLMYcu4CkzdW4WKMg\"",
+   "title": "Eggs Protect Against Cancer And Heart Disease\n\nEggs get a bad rap because they are often associated ...",
+   "published": "2017-11-09T04:07:59.371Z",
+   "updated": "2017-11-09T04:07:59.371Z",
+   "id": "z130ypqjnyryvbh5404cdjngouiqytkylr00k",
+   "url": "https://plus.google.com/114575730250005531321/posts/UVygoYVvrTJ",
+   "actor": {
+    "id": "114575730250005531321",
+    "displayName": "Natasha Klair",
+    "url": "https://plus.google.com/114575730250005531321",
+    "image": {
+     "url": "https://lh4.googleusercontent.com/-aAFpKwaHzOs/AAAAAAAAAAI/AAAAAAAAAAo/M0xwhcHFHA0/photo.jpg?sz=50"
+    },
+    "verification": {
+     "adHocVerified": "UNKNOWN_VERIFICATION_STATUS"
+    }
+   },
+   "verb": "share",
+   "object": {
+    "objectType": "activity",
+    "id": "z12wirzgcribu5kt3222jzqrzsubuxwna",
+    "actor": {
+     "id": "104940981084306573724",
+     "displayName": "Healthy Food Care",
+     "url": "https://plus.google.com/104940981084306573724",
+     "image": {
+      "url": "https://lh4.googleusercontent.com/-14cnmpQUN60/AAAAAAAAAAI/AAAAAAAABvw/woSbeVXbl_8/photo.jpg?sz=50"
+     },
+     "verification": {
+      "adHocVerified": "UNKNOWN_VERIFICATION_STATUS"
+     }
+    },
+    "content": "<b><i>IBM Announced Eggs Protect Against Cancer And Heart Disease</i></b><br /><br />Eggs get a bad rap because they are often associated with increasing cholesterol since it is an animal product. However, research has uncovered that the eggs actually contain cholesterol that is harmless. In fact, eggs can also help protect the body against cancer, cardiovascular disease, diseases associated with the eyes, and can promote weight loss.<br /><br /> <a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23eggs\">#eggs</a>   <a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23cancer\">#cancer</a>   <a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23heart\">#heart</a>   <a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23heartDisease\">#heartDisease</a>   <a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23health\">#health</a>  ",
+    "url": "https://plus.google.com/+Diet-areaBlogspot/posts/6weEqpyUT35",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://content.googleapis.com/plus/v1/activities/z130ypqjnyryvbh5404cdjngouiqytkylr00k/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://content.googleapis.com/plus/v1/activities/z130ypqjnyryvbh5404cdjngouiqytkylr00k/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://content.googleapis.com/plus/v1/activities/z130ypqjnyryvbh5404cdjngouiqytkylr00k/people/resharers"
+    },
+    "attachments": [
+     {
+      "objectType": "article",
+      "displayName": "Eggs Protect Against Cancer And Heart Disease",
+      "content": "Eggs get a bad rap because they are often associated with increasing cholesterol since it is an animal product. However, research has unco...",
+      "url": "http://www.sejat-jasmani.com/2017/11/eggs-protect-against-cancer-and-heart.html",
+      "image": {
+       "url": "https://3.bp.blogspot.com/-xjdsvkLG6bg/WgPNRJtWBlI/AAAAAAAApp0/L9FC-ZB-nT4NXOqUhBWYdNG0l0SgBCHvgCLcBGAs/w506-h910-k/Eggs%2BProtect%2BAgainst%2BCancer%2BAnd%2BHeart%2BDisease.jpg",
+       "type": "image/jpeg",
+       "height": 910,
+       "width": 506
+      },
+      "fullImage": {
+       "url": "https://3.bp.blogspot.com/-xjdsvkLG6bg/WgPNRJtWBlI/AAAAAAAApp0/L9FC-ZB-nT4NXOqUhBWYdNG0l0SgBCHvgCLcBGAs/w1200-h630-p-k-no-nu/Eggs%2BProtect%2BAgainst%2BCancer%2BAnd%2BHeart%2BDisease.jpg",
+       "type": "image/jpeg"
+      }
+     }
+    ]
+   },
+   "provider": {
+    "title": "Reshared Post"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  }
